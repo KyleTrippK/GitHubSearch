@@ -1,0 +1,29 @@
+/*Responsive styles for screen larger than 620px*/
+@media screen and (min-width: 620px) {
+    .searchImage{
+        height: 60vh;
+        width: 80%;
+    }
+    .searchText{
+        font-size: 8vh;
+    }
+    #searchArea{
+        width: 70vh;
+        margin: auto;
+    }
+}
+
+/*Responsive styles for screen smaller than 620px*/
+@media screen and (max-width: 620px) {
+    .search {
+        width: 90%;
+        margin: auto;
+    }
+    .searchText{
+        font-size: 5vh;
+    }
+    #searchArea{
+        width: 75%;
+        margin: auto;
+    }
+}
