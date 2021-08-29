@@ -9,7 +9,6 @@ import { ApiService } from 'src/app/api.service'
   
 })
 
-// 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
 
 export class GithubComponent implements OnInit {
 
@@ -21,7 +20,6 @@ export class GithubComponent implements OnInit {
       return this.displayUser = profile;
     });
   }
-
   constructor( private service:ApiService ) {  }
 
   ngOnInit(): void {

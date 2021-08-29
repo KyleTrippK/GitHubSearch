@@ -12,13 +12,9 @@ export class ApiService {
   repos:any;
 
   constructor( private http:HttpClient) { }
-  
   showUser(user:any){
     return this.http.get("https://api.github.com/users/" + user+ "?access_token=" + environment.gitApi)
     .pipe(((response:any)=>response));
   }
-
-  // users(){
-   
-  
+     
 }

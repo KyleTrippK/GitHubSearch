@@ -1,12 +1,22 @@
 <header class="pt-3">
-    <div class="search text-center">
-        <img src="../../assets/business-2082639_1280.jpg" alt="" class="img-fluid searchImage">
+    <div class="menu row">
+        <!-- <p class="col-sm">Repos</p>
+        <p class="col-sm">Profiles</p> -->
+        <a class="nav-item nav-link col-sm" routerLink="/repositories" routerLinkActive='active'>Repos</a>
+        <a class="nav-item nav-link col-sm" routerLink="/profiles" routerLinkActive='active'>profiles</a>
     </div>
-    <div>
-        <P class="searchText text-center">Github Search</P>
+    <div class="text-center">
+        <P class="searchText git text-center">Github Search</P>
     </div>
 </header>
-<div class="text-center">
-    <input type="search" class="form-control" placeholder="Search" id="searchArea">
-</div>
-<div></div>
+<form class="form-inline" submit="searchUser">
+    <div class="text-center">
+        <input [(ngModel)]="user"  name="user" type="search" class="form-control" placeholder="Search" id="searchArea">
+    </div>
+     
+    <div class="text-center">
+        <input (click)="showUserName()" type="submit" value="search" class="btn btn-secondary btn-sm mt-3" >
+    </div>
+</form>
+<p class="text-center">{{displayUser.login}}</p>
+
