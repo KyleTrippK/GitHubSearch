@@ -1,7 +1,5 @@
 <header class="pt-3">
     <div class="menu row">
-        <!-- <p class="col-sm">Repos</p>
-        <p class="col-sm">Profiles</p> -->
         <a class="nav-item nav-link col-sm" routerLink="/repositories" routerLinkActive='active'>Repos</a>
         <a class="nav-item nav-link col-sm" routerLink="/profiles" routerLinkActive='active'>profiles</a>
     </div>
@@ -19,4 +17,6 @@
     </div>
 </form>
 <p class="text-center">{{displayUser.login}}</p>
+<p class="text-center">{{displayUser.created_at | date}}</p>
+<img src="{{displayUser.avatar_url}}" alt="">
 

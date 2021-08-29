@@ -1,4 +1,8 @@
-/*Responsive styles for screen larger than 620px*/
+
+.menu{
+    float: right;
+    margin-right: 20px;
+}
 @media screen and (min-width: 620px) {
     .searchImage{
         height: 60vh;
@@ -13,7 +17,7 @@
     }
 }
 
-/*Responsive styles for screen smaller than 620px*/
+/*Responsive styles*/
 @media screen and (max-width: 620px) {
     .search {
         width: 90%;
