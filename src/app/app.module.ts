@@ -9,7 +9,8 @@ import { ApiService } from './api.service'
 import { FormsModule } from '@angular/forms';
 import { ProfileComponent } from './profile/profile.component';
 import { RepositoriesComponent } from './repositories/repositories.component';
-import { NotFoundComponent } from './not-found/not-found.component';
+//import { NotFoundComponent } from './not-found/not-found.component';
+// import { GitComponent } from './git/git.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
     GithubComponent,
     ProfileComponent,
     RepositoriesComponent,
-    NotFoundComponent,
+    //NotFoundComponent,
 
   ],
   imports: [
