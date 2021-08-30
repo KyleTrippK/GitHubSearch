@@ -1,4 +1,4 @@
-# QuotesApp
+# Github Search
 ## About the Author
 Developed by Kibet Kyle on Aug 29 2021.
 Kibet Kyle is a student at Moringa School who  is aspiring to be a Java developer then to fair on and build more other skills in the tech industry. 
