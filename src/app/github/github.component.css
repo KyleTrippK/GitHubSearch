@@ -31,3 +31,11 @@
         margin: auto;
     }
 }
+
+.image{
+    border-right: 2px solid grey;
+}
+.repos{
+    border-top: 2px solid grey;
+    list-style: none;
+}
