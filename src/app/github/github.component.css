@@ -39,3 +39,15 @@
     border-top: 2px solid grey;
     list-style: none;
 }
+.userImage{
+    width: 50%;
+}
+.topic{
+    background-color: grey;
+    border-radius: 10px;
+    width: 40%;
+    margin: auto;
+}
+.searchText{
+    color: antiquewhite;
+}
