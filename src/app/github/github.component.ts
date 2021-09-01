@@ -9,7 +9,7 @@ import { ReposerveService } from 'src/app/reposerve.service'
 })
 
 
-export class GithubComponent implements OnInit {
+export class GithubComponent implements OnInit{
 
   user:any;
   displayUser:any;
@@ -29,6 +29,9 @@ export class GithubComponent implements OnInit {
   constructor( private service:ApiService, private newserve:ReposerveService ) {  }
 
   ngOnInit(): void {
+    this.user = "KyleTrippK"
+    this.showUserName();
+    this.showUse();
   }
 
 }
