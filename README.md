@@ -26,7 +26,7 @@ The following languages have been used to develop the project
         <li>Angular framework</li>
     </ol>
 ## Live link
-Here's the link to the project's [Live site]("./https://kyletrippk.github.io/GitHubSearch")
+Here's the link to the project's [Live site] ("./https://kyletrippk.github.io/GitHubSearch")
 ### Bugs
 No bugs have been identified in the project.
 
